@@ -155,13 +155,3 @@ spotify-charts-sql/
 - **Python 3** (pandas, psycopg2) — Data ingestion automation
 - **Git/GitHub** — Version control
 
-## Relevance to Oracle Database Administration
-
-This project uses PostgreSQL, but the core concepts transfer directly to Oracle:
-- **Normalization and schema design** — identical across relational databases
-- **Indexing and EXPLAIN ANALYZE** — Oracle uses `EXPLAIN PLAN` with the same B-tree index concepts
-- **Data cleaning and migration** — same SQL patterns (TRIM, DISTINCT, GROUP BY, HAVING)
-- **Views** — same syntax and purpose in Oracle
-- **Automation** — Oracle uses PL/SQL procedures where this project uses Python; the principle of automating recurring DB processes is the same
-- **ACID properties** — fundamental to both PostgreSQL and Oracle
-- **ctid (PostgreSQL) vs ROWID (Oracle)** — physical row identifiers used for deduplication of keyless tables
