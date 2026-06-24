@@ -4,7 +4,7 @@ import sys
 DB_CONFIG = {
     "dbname": "spotify_charts",
     "user": "postgres",
-    "password": "ADLAKHA",
+    "password": "YOUR_PASSWORD_HERE",
     "host": "localhost",
     "port": 5432
 }
